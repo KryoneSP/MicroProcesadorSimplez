@@ -46,11 +46,11 @@ Este proyecto es un emulador de CPU educativo escrito en C que simula el funcion
 4. **Indirecto Indexado** (11): `EA = mem[address + X]`
 
 ## Formato de Instrucción
-[000] --> No usado (3 bits)
-[OPCODE] --> Código operación (4 bits)
-[R] --> Registro (0=X, 1=ACC)
-[DI] --> Modo direccionamiento (2 bits)
-[CDCDCDCDCD] --> Constante Dirección o Datos (6 bits)
+- [000] --> No usado (3 bits)
+- [OPCODE] --> Código operación (4 bits)
+- [R] --> Registro (0=X, 1=ACC)
+- [DI] --> Modo direccionamiento (2 bits)
+- [CDCDCDCDCD] --> Constante Dirección o Datos (6 bits)
 
 ## Compilación y Ejecución
 
